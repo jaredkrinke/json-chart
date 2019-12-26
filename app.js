@@ -4,6 +4,8 @@ var input = document.getElementById("data");
 
 var defaultColor = "rgba(255, 0, 0, 0.5)";
 
+// TODO: Replacing charts doesn't work cleanly -- probably need to delete the canvas element and recreate it...
+
 loadButton.onclick = function () {
     var raw = JSON.parse(input.value);
     var columns = [];
