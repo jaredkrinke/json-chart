@@ -81,6 +81,7 @@ loadButton.onclick = function () {
                         label: y,
                         borderColor: defaultColor,
                         backgroundColor: defaultColor,
+                        borderWidth: 3,
                         data: data
                     }
                 ]
