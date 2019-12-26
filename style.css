@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+#input {
+    display: flex;
+    flex-direction: column;
+}
+
+#data {
+    flex-grow: 1;
+}
+
+#output {
+    flex-grow: 1;
+}
